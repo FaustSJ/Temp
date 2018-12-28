@@ -1,0 +1,16 @@
+package com.revature;
+import org.apache.pig.EvalFunc;
+import org.apache.pig.Tuple;
+
+//EvalFunc<return type>
+public class DifferencePig extends EvalFunc<double>{
+	public double exec(Tuple input) {
+		
+		try{
+			
+		}
+		catch (Excption e){
+		}
+		
+	}
+}
