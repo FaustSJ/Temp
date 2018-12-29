@@ -1,6 +1,19 @@
-REGISTER 'python file path' USING jython as myfuncs;
+/*
+First, make a folder to store the pig files into:
+sudo -u hdfs hadoop dfs hdfs://quickstart.cloudera:8020/pig-stuff
 
-data = load 'Gender_StatsData.csv' using PigStorage('|') as (country_name:chararray, country_code:chararray, 
+Then copy the data to the folder
+sudo -u hdfs hadoop dfs hdfs://quickstart.cloudera:8020sudo -u hdfs hadoop dfs -copyFromLocal Gender_StatsData.csv hdfs://quickstart.cloudera:8020/pig-stuff
+
+Then run the script
+pig request5.pig
+(make sure difference.py is in the same directory)
+*/
+
+
+REGISTER 'difference.py' USING jython as myfuncs;
+
+data = load 'hdfs://quickstart.cloudera:8020/pig-stuff/Gender_StatsData.csv' using PigStorage('|') as (country_name:chararray, country_code:chararray, 
 indicator_name:chararray, indicator_code:chararray, year1960:double, year1961:double, year1962:double, year1963:double, 
 year1964:double, year1965:double, year1966:double, year1967:double, year1968:double, year1969:double, year1970:double, 
 year1971:double, year1972:double, year1973:double, year1974:double, year1975:double, year1976:double, year1977:double, 
@@ -16,12 +29,6 @@ filter_data = filter data by indicator_name == 'School enrollment, tertiary (gro
 result = foreach filter_data generate country_name, indicator_name, 
 myfuncs.earliestYear(TOBAG(*)), myfuncs.latestYear(TOBAG(*)), myfuncs.difference(TOBAG(*));
 
-newResult = filter result by not($3 == 0) and not($4 == 0) and not($5 == 0.0);
+newResult = filter result by not($2 == 0) and not($3 == 0) and not($4 == 0.0);
 
-STORE raw_data INTO 'hbase://question5' USING org.apache.pig.backend.hadoop.hbase.HBaseStorage(
-'question5_data:country
-question5_data:indicator
-question5_data:earliestyear
-question5:latestyear
-question5:increase'
-);
+store newResult into 'pigout' using PigStorage('|');

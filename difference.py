@@ -12,13 +12,14 @@ def earliestYear(row):
 @outputSchema("latest_year:int")      
 def latestYear(row):
 	count = 0
-	for i,k in reversed(row):
-		if count < 6 :
+	latest_year_with_value = 0
+	for i,k in enumerate(row):
+		if count > 54 :
 			data = str(k).split(",")
 			if data[0] != '(None':
-				return (2016 - count)
+				latest_year_with_value = 1960 + count - 4
 		count += 1
-	return 0
+	return latest_year_with_value;
 
 @outputSchema("difference:double")      
 def difference(row):
@@ -30,16 +31,16 @@ def difference(row):
 		if count > 53 :
 			data = str(k).split(",")
 			if data[0] != '(None':       
-				first_value = double (str(k)[1:-2])
+				first_value = double(str(k)[1:-2])
 		count += 1
 	count = 0
-	for i,k in reversed(row):
-		if count < 6 :
-			data = str(k).split(",")
-			if data[0] != '(None':
-				last_value = double (str(k)[1:-2])
-		count += 1
-	if (first_value!=0) and (last_value!=0) and (first_value!=last_value) and
-	(first_value<1.0) and (last_value>first_value):
+        for i,k in enumerate(row):
+                if count > 54 :
+                        data = str(k).split(",")
+                        if data[0] != '(None':
+                                last_value = double(str(k)[1:-2])
+                count += 1
+        return latest_year_with_value;
+	if (first_value!=0) and (last_value!=0) and (first_value!=last_value) and (first_value<1.0) and (last_value>first_value):
 		return (last_value-first_value)
 	return 0.0
