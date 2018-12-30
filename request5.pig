@@ -1,13 +1,11 @@
 /*
-First, make a folder to store the pig files into:
-sudo -u hdfs hadoop dfs hdfs://quickstart.cloudera:8020/pig-stuff
+make a table in HBase:
+cloudera]$ hbase shell
+hbase> create 'question5', 'question5_data'
+hbase> exit
 
-Then copy the data to the folder
-sudo -u hdfs hadoop dfs hdfs://quickstart.cloudera:8020sudo -u hdfs hadoop dfs -copyFromLocal Gender_StatsData.csv hdfs://quickstart.cloudera:8020/pig-stuff
-
-Then run the script
-pig request5.pig
-(make sure difference.py is in the same directory)
+to run the pig script:
+PIG_CLASSPATH=/usr/lib/hbase/hbase.jar:/usr/lib/zookeeper-3.4.5-cdh4.jar /usr/bin/pig /home/cloudera/Repositories/Temp/request5.pig
 */
 
 
@@ -22,4 +20,5 @@ result = foreach filter_data generate country_name, indicator_name, myfuncs.earl
 
 newResult = filter result by not($2 == 0) and not($3 == 0) and not($4 == 0.0);
 
-store newResult into 'pigout' using PigStorage('|');
+--store newResult into 'pigout' using PigStorage('|');
+STORE newResult INTO 'hbase://question5' USING org.apache.pig.backend.hadoop.hbase.HBaseStorage('question5_data:indicator, question5_data:earliest_year, question5_data:latest_year, question5_data:difference');
