@@ -1,0 +1,62 @@
+Early-demographic dividend	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.105540037155
+Heavily indebted poor countries (HIPC)	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.0126100182533
+IDA blend	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.0534099936485
+IDA only	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.0325099825859
+IDA total	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.0410799980164
+Least developed countries: UN classification	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.042159974575
+Low income	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.0371199846268
+Lower middle income	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.130529999733
+Pre-demographic dividend	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.0131300091743
+South Asia	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.193260014057
+South Asia (IDA & IBRD)	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.193260014057
+Sub-Saharan Africa	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.0248900055885
+Sub-Saharan Africa (excluding high income)	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.0248500108719
+Sub-Saharan Africa (IDA & IBRD)	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.0248900055885
+Angola	School enrollment, tertiary (gross), gender parity index (GPI)	2011	2013	0.43093
+Azerbaijan	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.17297
+Bangladesh	School enrollment, tertiary (gross), gender parity index (GPI)	2011	2014	0.04444
+Benin	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2013	0.02357
+Bhutan	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2013	0.12448
+Burkina Faso	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2013	0.01323
+Cambodia	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.22595
+Central African Republic	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2012	0.04214
+Chad	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.02253
+Comoros	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.06736
+Congo, Dem. Rep.	School enrollment, tertiary (gross), gender parity index (GPI)	2011	2013	0.00831
+Congo, Rep.	School enrollment, tertiary (gross), gender parity index (GPI)	2011	2013	0.16683
+Cote d'Ivoire	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.14572
+Cyprus	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.46076
+Egypt, Arab Rep.	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.04803
+Eritrea	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.1153
+Ethiopia	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.05107
+Gambia, The	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2012	0.00434
+Germany	School enrollment, tertiary (gross), gender parity index (GPI)	2013	2015	0.03557
+Ghana	School enrollment, tertiary (gross), gender parity index (GPI)	2011	2015	0.10305
+Guinea	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.11678
+Hong Kong SAR, China	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.17316
+India	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.25689
+Indonesia	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.24238
+Japan	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.03302
+Korea, Rep.	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2013	0.01506
+Lao PDR	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.19062
+Liberia	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2012	0.0985
+Macao SAR, China	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.35347
+Madagascar	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.00619
+Malawi	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2011	0.03124
+Mali	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2012	0.00308
+Mauritania	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2016	0.10163
+Morocco	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.05522
+Mozambique	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.05784
+Nepal	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.41161
+Rwanda	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2013	0.00474
+Sao Tome and Principe	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.06676
+Senegal	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.0149
+Switzerland	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.02693
+Syrian Arab Republic	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.27361
+Tajikistan	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2016	0.18801
+Togo	School enrollment, tertiary (gross), gender parity index (GPI)	2012	2015	0.15436
+Turkey	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2014	0.05448
+Yemen, Rep.	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2011	0.00346
+Zimbabwe	School enrollment, tertiary (gross), gender parity index (GPI)	2010	2015	0.10451
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.
